@@ -117,6 +117,17 @@ button:focus {
   outline: none;
   box-shadow: none; }
 
+.btn-outline-danger, .btn-outline-danger:visited {
+    color: #ff7a7f !important;
+    border-color: #ff7a7f !important;
+}
+
+.btn-outline-danger:hover, .btn-outline-danger:active {
+    background-color: #ff7a7f !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
 .p_120 {
   padding-top: 120px;
   padding-bottom: 120px; }
