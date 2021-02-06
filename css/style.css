@@ -206,11 +206,11 @@ ul {
 /*  Start Header Top Area CSS
 /* =================================== */
 .header-top {
-  line-height: 100px;
+  line-height: 200px;
   border-bottom: 1px solid #e8edf1; }
   @media (max-width: 575px) {
     .header-top .col-lg-6 {
-      width: 50%; } }
+      width: 80%; } }
   .header-top .search-trigger {
     text-align: right; }
     @media (max-width: 1080px) {
