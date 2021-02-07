@@ -118,12 +118,12 @@ button:focus {
   box-shadow: none; }
 
 .btn-outline-danger, .btn-outline-danger:visited {
-    color: #ff7a7f !important;
-    border-color: #ff7a7f !important;
+    color: #ffa366 !important;
+    border-color: #ffa366 !important;
 }
 
 .btn-outline-danger:hover, .btn-outline-danger:active {
-    background-color: #ff7a7f !important;
+    background-color: #e65c00 !important;
     color: #ffffff !important;
     border-color: #ffffff !important;
 }
