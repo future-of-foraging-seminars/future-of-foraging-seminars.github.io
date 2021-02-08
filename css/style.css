@@ -85,7 +85,7 @@ a {
     .area-heading h3:after {
       content: '';
       position: absolute;
-      width: 70px;
+      width: 65px;
       height: 2px;
       background: #ff6600;
       left: 50%;
@@ -95,7 +95,7 @@ a {
     margin-top: 45px;
     color: #FAFDF3;
     font-family: "Open Sans", sans-serif;
-    font-size: 24px; }
+    font-size: 20px; }
     .area-heading li {
       color: #FAFDF3;
       font-family: "Open Sans", sans-serif;
@@ -476,7 +476,7 @@ ul {
   display: inline-block;
   color: #2a2a2a;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   outline: none; }
 
@@ -497,7 +497,7 @@ ul {
   color: #333;
   transition: 0.3s;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: none; }
 
 .nav-menu ul li:hover > a {
