@@ -70,14 +70,14 @@ a {
   margin-bottom: 45px; }
   .area-heading h2 {
     color: #FAFDF3;
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     position: relative;
     margin-bottom: 20px; }
   .area-heading h3 {
     color: #FAFDF3;
-    font-size: 48px;
+    font-size: 40px;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     position: relative;
@@ -104,7 +104,7 @@ a {
 body {
   line-height: 27px;
   background: #000000;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #ffffff; }
