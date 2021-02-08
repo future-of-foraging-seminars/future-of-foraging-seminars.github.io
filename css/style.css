@@ -143,7 +143,7 @@ button:focus {
     max-width: 1170px; } }
 
 .area-padding {
-  padding: 130px 0; }
+  padding: 100px 0; }
 
 .area-padding-top {
   padding-top: 100px; }
@@ -152,7 +152,7 @@ button:focus {
   padding-bottom: 100px; }
 
 .background_one {
-  background: #fbf1f2; }
+  background: #404040; }
 
 .border-bottom {
   border-bottom: 1px solid #e8edf1; }
@@ -177,7 +177,7 @@ button:focus {
   padding-right: 0 !important; }
 
 .background_one {
-  background: #fbf1f2; }
+  background: #404040; }
 
 img {
   max-width: 100%; }
