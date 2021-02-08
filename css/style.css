@@ -64,6 +64,17 @@ a {
   margin-right: 0;
   margin-left: 0; }
 
+  .tabcenter {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+  }
+
+td, th {
+    padding: 8px;
+    text-align: left;
+  }
+
 .area-heading {
   text-align: center;
   width: 100%;
