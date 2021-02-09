@@ -25,11 +25,12 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-6 col-lg-4">
                     <div class="float-left">
-                        <ul class="header_social">
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="https://github.com/future-of-foraging-seminars"><i class="ti-github"></i></a></li>
-                            <li><a href="https://vimeo.com/futureofforagingseminars"><i class="ti-vimeo"></i></a></li>
-                        </ul>
+                      <ul class="header_social">
+                          <li><a href="https://twitter.com/FoF_seminars" target="_blank" ><i class="ti-twitter"></i></a></li>
+                          <li><a href="https://www.instagram.com/future_of_foraging_seminars/" target="_blank" ><i class="ti-instagram"></i></a></li>
+                          <li><a href="https://github.com/future-of-foraging-seminars" target="_blank" ><i class="ti-github"></i></a></li>
+                          <li><a href="https://vimeo.com/futureofforagingseminars" target="_blank" ><i class="ti-vimeo"></i></a></li>
+                      </ul>
                     </div>
                 </div>
                 <div class="col-6 col-lg-4 col-md-6 col-sm-6 logo-wrapper">
@@ -61,35 +62,40 @@
 
     <!-- Start header Menu Area -->
     <header id="header" class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="category.html">About</a></li>
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasons</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="#s1">1</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">2</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">3</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">How to watch</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+      <div class="main_menu">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                      <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                          <li class="nav-item submenu dropdown">
+                              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasons</a>
+                              <ul class="dropdown-menu">
+                                  <li class="nav-item"><a class="nav-link" href="#s1">1</a></li>
+                                  <!--
+                                  <li class="nav-item"><a class="nav-link" href="#">2</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#">3</a></li>
+                                  -->
+                              </ul>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">How to watch</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                      </ul>
+                  </div>
+
+                  <div w3-include-html="menu.html"></div>
+
+              </div>
+          </nav>
+      </div>
     </header>
     <!-- End header MEnu Area -->
 
@@ -148,20 +154,70 @@
               <div class="mx-auto">
                 <a class="btn btn-outline-danger" href="https://calendar.google.com/calendar/u/0?cid=Y19vZHVvNXZ1MmNyazVldjlvb3BhZm12Mm90MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" role="button">Sign Up For Our Event Calendar</a>
               </div>
+              <p style= "margin-bottom:3cm;"> </p>
             </div>
         </div>
     </section>
 
-    <section class="fullwidth-block area-padding-bottom">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="area-heading">
-              </div>
-                <div class="area-heading">
-                    <h3 id="s1">SEASON 1</h3>
-                    <p>Starting March 16th, 2021</p>
-                </div>
+    <!--================Fullwidth block Area end =================-->
+
+    <section class="background_one area-padding">
+      <div class="container">
+        <div class="row">
+            <div id="s1" class="area-heading">
+                <h3>SEASON 1</h3>
+                <p>Starting March 16th, 2021</p>
+
+                <p>
+                  <table class="tabcenter">
+                    <!--<tr>
+                      <th> </th>
+                      <th>Title</th>
+                      <th>Speakers</th>
+                      <th>Date</th>
+                    </tr>-->
+                    <tr>
+                      <td>EPISODE 1</td>
+                      <td><b>What is foraging?</b></td>
+                      <td>Alex Kacelnik</td>
+                      <td>March 16, 2021</td>
+                    </tr>
+                    <tr>
+                      <td>EPISODE 2</td>
+                      <td><b>Foraging at the Limit</b></td>
+                      <td>Susan Healy & Lars Chittka</td>
+                      <td>March 30, 2021</td>
+                    </tr>
+                    <tr>
+                      <td>EPISODE 3</td>
+                      <td><b>A unified framework for foraging theory</b></td>
+                      <td>Ahmed El Hady & Nils Kolling</td>
+                      <td>April 13, 2021</td>
+                    </tr>
+                    <tr>
+                      <td>EPISODE 4</td>
+                      <td><b>...</b></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>EPISODE 5</td>
+                      <td><b>...</b></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>EPISODE 6</td>
+                      <td><b>...</b></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </p>
             </div>
+        </div>
+
+        <divclass="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="single-blog style_two border_one">
@@ -174,7 +230,7 @@
                                 <p>EPISODE 1</p>
                             </div>
                             <a class="d-block" href="single-blog.html">
-                                <h4>Alex Kacelnik - What is foraging?</h4>
+                                <h3>Alex Kacelnik - What is foraging?</h3>
                             </a>
                             <div class="meta-bottom d-flex justify-content-center">
                                 <p>March 16, 2021.</p>
@@ -194,7 +250,7 @@
                                 <p>EPISODE 2</p>
                             </div>
                             <a class="d-block" href="single-blog.html">
-                                <h4>Susan Healy & Lars Chittka - Foraging at the Limit</h4>
+                                <h3>Susan Healy & Lars Chittka - Foraging at the Limit</h3>
                             </a>
                             <p>Cognitive capabilities of birds and bees</p>
                             <div class="meta-bottom d-flex justify-content-center">
@@ -215,7 +271,7 @@
                                 <p>EPISODE 3</p>
                             </div>
                             <a class="d-block" href="single-blog.html">
-                                <h4>Ahmed El Hady & Nils Kolling - A Unified Framework for Foraging Theory</h4>
+                                <h3>Ahmed El Hady & Nils Kolling - A Unified Framework for Foraging Theory</h3>
                             </a>
                             <div class="meta-bottom d-flex justify-content-center">
                                 <p>April 13, 2021.</p>
@@ -226,14 +282,12 @@
 
             </div>
         </div>
+      </div>
     </section>
-
-    <!--================Fullwidth block Area end =================-->
 
 
 
     <!--================ Video section start =================
-
     <div class="video-area background_one area-padding">
         <div class="container">
             <div class="row">
@@ -349,8 +403,6 @@
             </div>
         </div>
     </div>
-
-
     ================ Video section end =================-->
 
 
@@ -359,14 +411,13 @@
 
     <!--================ Latest news section start =================-->
 
-    <div class="latest-news  area-padding-bottom">
+    <div class="latest-news  area-padding">
         <div class="container">
             <div class="row">
                 <div class="area-heading">
                     <h3>News</h3>
                     <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
                 </div>
-
             </div>
             <div class="row">
                 <div class="col-lg-6">
