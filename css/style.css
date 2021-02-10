@@ -852,6 +852,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: right;
 }
 
+.posterimg{
+  opacity: 0.3;
+  filter: alpha(opacity=80); /* msie */
+  background-color: #000;
+}
+
 /*----------------------------------------------------*/
 /* Start Blog Area css
 ============================================================================================ */
@@ -917,7 +923,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       .single-blog h4 {
         margin-bottom: 8px; } }
   .single-blog:hover img {
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    opacity: 0.9;
+    background-color: #000;
+   }
 
 .single-blog .meta-top a:first-child {
   margin-right: 3px; }
