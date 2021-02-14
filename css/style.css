@@ -2810,11 +2810,11 @@ h6 {
 .unordered-list li:before {
   content: "";
   position: absolute;
-  width: 14px;
-  height: 14px;
-  border: 3px solid #f8b600;
-  background: #fff;
-  top: 4px;
+  width: 12px;
+  height: 12px;
+  border: 0px solid #000;
+  background: #ffa366;
+  top: 8px;
   left: 0;
   border-radius: 50%; }
 
@@ -3320,7 +3320,7 @@ h6 {
 .unordered-list {
   list-style: none;
   padding: 0px;
-  margin: 0px; }
+  margin: 20px; }
 
 .ordered-list {
   list-style: none;
