@@ -74,7 +74,7 @@
                   <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                       <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
                           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                          <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+                          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                           <li class="nav-item submenu dropdown">
                               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasons</a>
                               <ul class="dropdown-menu">
@@ -86,8 +86,8 @@
                               </ul>
                           </li>
                           <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
-                          <li class="nav-item"><a class="nav-link" href="howto.html">How to watch</a></li>
-                          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">How to watch</a></li>
+                          <li class="nav-item active"><a class="nav-link" href="#">Contact us</a></li>
                       </ul>
                   </div>
               </div>
@@ -106,135 +106,66 @@
               <div class="area-heading">
               </div>
                 <div class="area-heading">
-                    <h3>What is this seminar series about?</h3>
+                    <h3>Contact us!</h3>
                     <p>
-                      Almost all animals forage for food, and must balance the costs of exploring their surroundings with the potential benefits of finding nutritional resources. Even when a foraging animal finds food, it has to decide whether to stay and feed or continue searching for a better option. This decision depends on the quality of the food source and the animal’s metabolic state. Foraging behaviors are studied in many different model and non-model animals, ranging from C. elegans to macaques. Furthermore, recent research has shed light on some elements of the neural and theoretical underpinnings of foraging. However, unifying principles and mechanistic basis of embodied cognitive processes involved in foraging are still lacking.
-                      <br><br>
-                      <span style="color:#ffa366;">
-                      This virtual seminar series is aimed to bring together neuroscientists, theorists, ecologists, and neuro-economists interested in exploring neural and theoretical mechanisms of foraging across multiple species.
-                      </span>
+                      <span style="color:#ffa366;">We would love to hear you comments, questions and feedback!</span>
+                      <br>
+                      <br>
+                      If you have a suggestion for a speaker you would love to see in an upcoming season, let us know.
+                      <br>
+                      <br>
+                      We also welcome (self-)nominations for scientists at any carrer stage to participate in the discussion panel after a seminar.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="fullwidth-block background_one area-padding">
-        <div class="container-fluid">
-            <div class="row">
-              <div class="area-heading">
-                  <h3>Who are we?</h3>
-                  <p>
-                    We are a group of PhD students and postdocs from <a href="https://fchampalimaud.org/champalimaud-research" target="_blank">Champalimaud Research</a> and <a href="https://www.janelia.org/" target="_blank">HHMI Janelia</a>.
-                    <br><br>
-                    More to come...
-                  </p>
-              </div>
+    <!-- ================ contact section start ================= -->
+
+    <section class="contact-section">
+      <div class="container">
+          <div class="row">
+            <div class="col-10">
+              <h2 class="contact-title">Get in Touch</h2>
             </div>
-        </div>
-
-        <div class="container">
-
-           <hr style="height:1px;width:50%;color:#ffa366;background-color:#ffa366;margin-bottom:3rem;">
-
-            <div class="row aboutus">
-                <div class="col-lg-4">
-                    <div class="single-blog style-five">
-                        <div class="thumb profilepic">
-                            <img class="img-fluid" src="img/profile/Laura.jpg" alt="">
-                        </div>
-                        <div class="short_details">
-                            <div class="nametag">
-                                <h4>Laura Grima</h4>
-                            </div>
-                            <div class="meta-top d-flex">
-                                <a href="https://www.janelia.org/people/laura-grima" target="_blank">HHMI Janelia, Dudman lab</a>/
-                                <a href="https://twitter.com/LauraGrimaNeuro" target="_blank"> <i class="ti-twitter"></i></a>
-                            </div>
-                        </div>
+            <div class="col-lg-12">
+              <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
                     </div>
-                </div>
-
-                <div class="col-lg-7">
-                    <div class = "biotext">
-                      <p>
-                        I'm currently a postdoc in the Dudman lab at HHMI Janelia, and I'm interested in how the basal ganglia interacts with other brain structures to help mice learn about and exploit complex environments. Before moving to Virginia I was in Oxford, where my PhD work focused on how mesolimbic dopamine is shaped by action. In my spare time I enjoy painting and playing videogames.
-                      </p>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
+                    </div>
+                  </div>
                 </div>
+                <div class="form-group mt-3">
+                  <button type="submit" class="btn btn-outline-danger">Send Message</button>
+                </div>
+              </form>
+
 
             </div>
 
-            <hr style="height:1px;width:50%;color:#ffa366;background-color:#ffa366;margin-bottom:3rem;">
-
-            <div class="row">
-                <div class="col-lg-1">
-                  <!-- offset 1 column -->
-                </div>
-                <div class="col-lg-7">
-                    <div class = "biotext_right">
-                      <p>
-                        Born and raised in Northern Germany, Dennis studied Physics at the University of Göttingen, where he got fascinated with brains and living complex systems. After a master in Neural Systems & Computation at the ETH/University Zurich, he joined the International Neuroscience Doctoral Programme at the Champalimaud Centre for the Unknown in 2016. In the Behavior & Metabolism Lab of Carlos Ribeiro, he currently studies foraging decisions of fruit flies dependent on their specific nutrient needs.
-                      </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="single-blog style-five_right">
-                        <div class="thumb profilepic">
-                            <img class="img-fluid" src="img/profile/dennis_fof.jpg" alt="">
-                        </div>
-                        <div class="short_details">
-                            <div class="nametag">
-                              <h4>Dennis Goldschmidt</h4>
-                            </div>
-                            <div class="meta-top d-flex">
-                                <a href="https://ribeirolab.org/" target="_blank">Champalimaud, Ribeiro lab</a>
-                                <a href="https://twitter.com/goldschmidtde" target="_blank"> <i class="ti-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr style="height:1px;width:50%;color:#ffa366;background-color:#ffa366;margin-bottom:3rem;">
-
-            <div class="row aboutus">
-                <div class="col-lg-4">
-                    <div class="single-blog style-five">
-                        <div class="thumb profilepic">
-                            <img class="img-fluid" src="img/profile/Hannah.jpg" alt="">
-                        </div>
-                        <div class="short_details">
-                            <div class="nametag">
-                                <h4>Hannah Haberkern </h4>
-                            </div>
-                            <div class="meta-top d-flex">
-                                <a href="https://www.janelia.org/people/hannah-haberkern" target="_blank">HHMI Janelia, Jayaraman lab</a>
-                                <a href="https://twitter.com/HannahHaberkern" target="_blank"> <i class="ti-twitter"></i></a>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7">
-                    <div class = "biotext">
-                      <p>
-                        I’m a neuroscientist interested in understanding how animals orient and navigate in complex naturalistic environments. Currently, as a postdoc in the Jayaraman lab at HHMI Janelia, I investigate how environmental context and past experiences shape navigation in walking fruit flies. To do this, I combine virtual reality techniques and two-photon calcium imaging with connectomic analysis as well as behavioral studies and modeling. Previous projects focused on different aspects of navigation in adult and larval fruit flies as well as crickets. In my free time I enjoy sewing and observing animals.
-                        <br>
-                        <br>
-                        Originally from Germany, I first studied biomedicine at the University of Würzburg, before transitioning to a masters in Computational Biology and Bioinformatics at the ETH/University Zurich. For my PhD she worked with Berthold Hedwig at the University of Cambridge and Vivek Jayaraman at HHMI Janelia as part of a joint graduate program.
-
-                      </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <hr style="height:1px;width:50%;color:#ffa366;background-color:#ffa366;margin-bottom:3rem;">
-
+          </div>
         </div>
     </section>
+    <!-- ================ contact section end ================= -->
+
 
 
     <!--================Fullwidth block Area end =================-->
@@ -253,7 +184,7 @@
                 <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Contact</h4>
                     <div class="footer-address">
-                        <p><span class="contact-info__icon"><i class="ti-email"></i></span> fof.seminar.series@gmail.com</p>
+                        <p>fof.seminar.series@gmail.com</p>
                     </div>
                 </div>
 
