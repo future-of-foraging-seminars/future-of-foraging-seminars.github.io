@@ -1993,15 +1993,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 48px;
     padding-left: 18px;
     font-size: 13px;
-    background: transparent; }
+    background: transparent;
+    color: #ffffff;}
     .comment-form .form-control:focus {
       outline: 0;
       box-shadow: none; }
     .comment-form .form-control::placeholder {
       font-weight: 300;
-      color: #999999; }
+      color: #ffffff; }
     .comment-form .form-control::placeholder {
-      color: #777777; }
+      color: #ffffff; }
   .comment-form textarea {
     padding-top: 18px;
     border-radius: 12px;
@@ -2009,19 +2010,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   .comment-form ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 13px;
-    color: #777; }
+    color: #ffffff; }
   .comment-form ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 13px;
-    color: #777; }
+    color: #ffffff; }
   .comment-form :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 13px;
-    color: #777; }
+    color: #ffffff; }
   .comment-form :-moz-placeholder {
     /* Firefox 18- */
     font-size: 13px;
-    color: #777; }
+    color: #ffffff; }
 
 /*============ End Blog Single Styles  =============*/
 /*---------------------------------------------------- */
@@ -2033,7 +2034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: 20px; }
     .contact-info__icon i, .contact-info__icon span {
       color: #8f9195;
-      font-size: 27px; }
+      font-size: 20px; }
   .contact-info .media-body h3 {
     font-size: 16px;
     margin-bottom: 0;
@@ -2051,7 +2052,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #2a2a2a; }
+  color: #6b6e7b; }
 
 .form-contact label {
   color: #ff6600;
@@ -2067,7 +2068,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: transparent; }
   .form-contact .form-control:focus {
     outline: 0;
-    box-shadow: none; }
+    box-shadow: none;
+    color: #ffffff;  }
   .form-contact .form-control::placeholder {
     font-weight: 300;
     color: #999999; }
@@ -2914,12 +2916,12 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #ffffff;
   padding: 0 20px; }
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #f8b600; }
+  border: 1px solid #ffffff; }
 
 .single-input-accent {
   display: block;
@@ -2932,7 +2934,7 @@ h6 {
 
 .single-input-accent:focus {
   outline: none;
-  border: 1px solid #eb6b55; }
+  border: 1px solid #ffffff; }
 
 .single-input-secondary {
   display: block;
@@ -3653,7 +3655,7 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  padding-top: 115px; }
+  padding-top: 100px; }
   @media (max-width: 991px) {
     .footer-area {
       padding: 60px 0px; } }
