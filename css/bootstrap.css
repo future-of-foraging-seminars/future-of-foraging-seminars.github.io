@@ -620,6 +620,7 @@ pre code {
 }
 
 .container-fluid-upcoming {
+    width: 33%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
