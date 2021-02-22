@@ -25,12 +25,12 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-6 col-lg-4">
                     <div class="float-left">
-                        <ul class="header_social">
-                            <li><a href="https://twitter.com/FoF_seminars" target="_blank" ><i class="ti-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/future_of_foraging_seminars/" target="_blank" ><i class="ti-instagram"></i></a></li>
-                            <li><a href="https://github.com/future-of-foraging-seminars" target="_blank" ><i class="ti-github"></i></a></li>
-                            <li><a href="https://vimeo.com/futureofforagingseminars" target="_blank" ><i class="ti-vimeo"></i></a></li>
-                        </ul>
+                      <ul class="header_social">
+                          <li><a href="https://twitter.com/FoF_seminars" target="_blank" ><i class="ti-twitter"></i></a></li>
+                          <li><a href="https://www.instagram.com/future_of_foraging_seminars/" target="_blank" ><i class="ti-instagram"></i></a></li>
+                          <li><a href="https://github.com/future-of-foraging-seminars" target="_blank" ><i class="ti-github"></i></a></li>
+                          <li><a href="https://vimeo.com/futureofforagingseminars" target="_blank" ><i class="ti-vimeo"></i></a></li>
+                      </ul>
                     </div>
                 </div>
                 <div class="col-6 col-lg-4 col-md-6 col-sm-6 logo-wrapper">
@@ -78,7 +78,7 @@
                           <li class="nav-item submenu dropdown">
                               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasons</a>
                               <ul class="dropdown-menu">
-                                  <li class="nav-item"><a class="nav-link" href="index.html#s1">1</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#s1">1</a></li>
                                   <!--
                                   <li class="nav-item"><a class="nav-link" href="#">2</a></li>
                                   <li class="nav-item"><a class="nav-link" href="#">3</a></li>
@@ -86,10 +86,13 @@
                               </ul>
                           </li>
                           <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#">How to watch</a></li>
-                          <li class="nav-item active"><a class="nav-link" href="#">Contact us</a></li>
+                          <li class="nav-item"><a class="nav-link" href="howto.html">How to watch</a></li>
+                          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact us</a></li>
                       </ul>
                   </div>
+
+                  <div w3-include-html="menu.html"></div>
+
               </div>
           </nav>
       </div>
@@ -138,18 +141,20 @@
                     <label for="fname">Email</label>
                     <input type="text" name="entry.904858791" id="entry.904858791"><br>
                     <label for="fname">Message</label>
-                    <input class="mymessage" type="text" name="entry.185747200" id="entry.185747200"><br>
+                    <textarea class="mymessage" type="text" name="entry.185747200" id="entry.185747200"></textarea><br>
                     <input type="submit" value="Send message">
                 </form>
 
+                <!--
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                -->
 
             </div>
 
           </div>
         </div>
     </section>
-    <!-- ================ contact section end ================= -->
+    <!--================ contact section end ================= -->
 
 
 
@@ -227,11 +232,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/mail-script.js"></script>
 <script src="js/theme.js"></script>
 <!-- some js for contact form -->
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
+  $('#gform *').fadeOut(1000);
   $('#gform').prepend('Your submission has been processed...');
   });
 </script>

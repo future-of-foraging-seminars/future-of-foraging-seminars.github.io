@@ -863,7 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text]{
+input[type=text], textarea{
   width: 100%;
   padding: 10px; /* Some padding */
   border: 1px solid #ccc; /* border */
@@ -875,12 +875,14 @@ input[type=text]{
   vertical-align: top;
   background-color: #1a1a1a;
   border: 1px solid #cccccc;
+  color: white;
 }
 
-input[type=text]:hover {
+input[type=text]:hover, textarea:hover {
   background-color: white;
   vertical-align: top;
   transition: all 300ms linear 0s;
+  color: black;
 }
 
 /* Style the submit button with a specific background color etc */
