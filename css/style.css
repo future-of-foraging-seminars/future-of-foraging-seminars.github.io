@@ -861,8 +861,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .profilepic img:hover{
   filter: grayscale(0%);
 }
-<<<<<<< Updated upstream
-=======
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text]{
@@ -882,6 +880,7 @@ input[type=text]{
 input[type=text]:hover {
   background-color: white;
   vertical-align: top;
+  transition: all 300ms linear 0s;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -899,6 +898,7 @@ input[type=submit]:hover {
   background-color: #ff6600;
   border: 1px solid white;
   color: white;
+  transition: all 300ms linear 0s;
 }
 
 .mymessage {
@@ -906,7 +906,6 @@ input[type=submit]:hover {
   height: 200px;
 }
 
->>>>>>> Stashed changes
 /*----------------------------------------------------*/
 /* Start Blog Area css
 ============================================================================================ */
