@@ -861,6 +861,52 @@ body.mobile-nav-active #mobile-nav-toggle {
 .profilepic img:hover{
   filter: grayscale(0%);
 }
+<<<<<<< Updated upstream
+=======
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text]{
+  width: 100%;
+  padding: 10px; /* Some padding */
+  border: 1px solid #ccc; /* border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  vertical-align: top;
+  background-color: #1a1a1a;
+  border: 1px solid #cccccc;
+}
+
+input[type=text]:hover {
+  background-color: white;
+  vertical-align: top;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #1a1a1a;
+  color: #ff6600;
+  padding: 10px 18px;
+  border: 1px solid #ff6600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #ff6600;
+  border: 1px solid white;
+  color: white;
+}
+
+.mymessage {
+  width: 100%;
+  height: 200px;
+}
+
+>>>>>>> Stashed changes
 /*----------------------------------------------------*/
 /* Start Blog Area css
 ============================================================================================ */
