@@ -25,12 +25,12 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-6 col-lg-4">
                     <div class="float-left">
-                        <ul class="header_social">
-                            <li><a href="https://twitter.com/FoF_seminars" target="_blank" ><i class="ti-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/future_of_foraging_seminars/" target="_blank" ><i class="ti-instagram"></i></a></li>
-                            <li><a href="https://github.com/future-of-foraging-seminars" target="_blank" ><i class="ti-github"></i></a></li>
-                            <li><a href="https://vimeo.com/futureofforagingseminars" target="_blank" ><i class="ti-vimeo"></i></a></li>
-                        </ul>
+                      <ul class="header_social">
+                          <li><a href="https://twitter.com/FoF_seminars" target="_blank" ><i class="ti-twitter"></i></a></li>
+                          <li><a href="https://www.instagram.com/future_of_foraging_seminars/" target="_blank" ><i class="ti-instagram"></i></a></li>
+                          <li><a href="https://github.com/future-of-foraging-seminars" target="_blank" ><i class="ti-github"></i></a></li>
+                          <li><a href="https://vimeo.com/futureofforagingseminars" target="_blank" ><i class="ti-vimeo"></i></a></li>
+                      </ul>
                     </div>
                 </div>
                 <div class="col-6 col-lg-4 col-md-6 col-sm-6 logo-wrapper">
@@ -78,7 +78,7 @@
                           <li class="nav-item submenu dropdown">
                               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasons</a>
                               <ul class="dropdown-menu">
-                                  <li class="nav-item"><a class="nav-link" href="index.html#s1">1</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#s1">1</a></li>
                                   <!--
                                   <li class="nav-item"><a class="nav-link" href="#">2</a></li>
                                   <li class="nav-item"><a class="nav-link" href="#">3</a></li>
@@ -90,6 +90,9 @@
                           <li class="nav-item active"><a class="nav-link" href="#">Contact us</a></li>
                       </ul>
                   </div>
+
+                  <div w3-include-html="menu.html"></div>
+
               </div>
           </nav>
       </div>
@@ -130,41 +133,28 @@
               <h2 class="contact-title">Get in Touch</h2>
             </div>
             <div class="col-lg-12">
-              <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="form-group">
-                      <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-group">
-                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <button type="submit" class="btn btn-outline-danger">Send Message</button>
-                </div>
-              </form>
 
+                <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfTse91rKAsz8lSvCeFrGqffwKnOl_g0Qf1awsS-tAC2rKfuQ/viewform?usp=pp_url" target="hidden_iframe" onsubmit="submitted=true;">
+                    <label for="fname">Name</label>
+                    <br>
+                    <input type="text" name="entry.1101310070" id="entry.1101310070"><br>
+                    <label for="fname">Email</label>
+                    <input type="text" name="entry.904858791" id="entry.904858791"><br>
+                    <label for="fname">Message</label>
+                    <textarea class="mymessage" type="text" name="entry.185747200" id="entry.185747200"></textarea><br>
+                    <input type="submit" value="Send message">
+                </form>
+
+                <!--
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                -->
 
             </div>
 
           </div>
         </div>
     </section>
-    <!-- ================ contact section end ================= -->
+    <!--================ contact section end ================= -->
 
 
 
@@ -241,5 +231,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/theme.js"></script>
+<!-- some js for contact form -->
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(1000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+
 </body>
 </html>
