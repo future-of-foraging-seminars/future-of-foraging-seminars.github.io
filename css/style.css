@@ -1125,6 +1125,9 @@ input[type=submit]:hover {
 .single-blog.border_one {
   border: 10px solid #ff6600; }
 
+  .single-blog.border_two {
+    border: 5px solid #ff6600; }
+
 .addvertise {
   width: 100%;
   text-align: center;
