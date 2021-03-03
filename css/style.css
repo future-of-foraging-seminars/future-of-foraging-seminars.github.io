@@ -3750,13 +3750,12 @@ h6 {
     border: 1px solid #eeeeee;
     width: 67% !important;
     font-weight: 400;
-    background: #fff;
     padding-left: 20px;
     border-radius: 0;
     font-size: 14px;
     padding: 10px 22px;
     border-radius: 25px;
-    color: #888888;
+    color: #FFF;
     margin-right: -25px; }
     .footer-area .single-footer-widget input:focus {
       outline: none;
