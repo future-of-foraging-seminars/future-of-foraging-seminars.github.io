@@ -79,20 +79,26 @@ td, th {
   text-align: center;
   width: 100%;
   margin-bottom: 45px; }
+  .area-heading h1 {
+    color: #FAFDF3;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px; }
   .area-heading h2 {
     color: #FAFDF3;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     position: relative;
     margin-bottom: 20px; }
   .area-heading h3 {
     color: #FAFDF3;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     position: relative;
-    margin-bottom: 23px; }
+    margin-bottom: 20px; }
     .area-heading h3:after {
       content: '';
       position: absolute;
@@ -131,12 +137,14 @@ button:focus {
 .btn-outline-danger, .btn-outline-danger:visited {
     color: #ffa366 !important;
     border-color: #ffa366 !important;
+    border-radius: 3px;
 }
 
 .btn-outline-danger:hover, .btn-outline-danger:active {
     background-color: #e65c00 !important;
     color: #ffffff !important;
     border-color: #ffffff !important;
+    border-radius: 3px;
 }
 
 .p_120 {
@@ -914,6 +922,32 @@ input[type=submit]:hover {
   background-color: #000;
 }
 
+.bannerimg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  transition: all 300ms linear 0s;
+}
+
+.bannerimg img:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+ }
+
+.bannercontainer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.bannertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*----------------------------------------------------*/
 /* Start Blog Area css
 ============================================================================================ */
@@ -923,7 +957,6 @@ input[type=submit]:hover {
   .single-blog .thumb {
     overflow: hidden; }
     .single-blog .thumb img {
-      width: 100%;
       transition: all 300ms linear 0s; }
   .single-blog .short_details {
     background: #fff;
@@ -939,7 +972,7 @@ input[type=submit]:hover {
       font-weight: 600;
       text-transform: capitalize; }
       .single-blog .short_details a:hover {
-        color: #ff6600; }
+        color: #662900; }
   .single-blog .meta-bottom {
     margin-bottom: 15px; }
     .single-blog .meta-bottom a {
@@ -952,7 +985,7 @@ input[type=submit]:hover {
       .single-blog .meta-bottom a i {
         margin-right: 10px; }
       .single-blog .meta-bottom a:hover {
-        color: #ff6600; }
+        color: #662900; }
   .single-blog .meta-top {
     margin-bottom: 6px; }
     .single-blog .meta-top a {
@@ -965,7 +998,7 @@ input[type=submit]:hover {
       font-family: "Open Sans", sans-serif;
       transition: all 300ms linear 0s; }
       .single-blog .meta-top a:hover {
-        color: #ff6600; }
+        color: #662900; }
   .single-blog h4 {
     font-size: 27px;
     margin-bottom: 10px;
@@ -1003,7 +1036,7 @@ input[type=submit]:hover {
     .single-blog.style_two .short_details a {
       color: #fff; }
       .single-blog.style_two .short_details a:hover {
-        color: #ff6600; }
+        color: #ffe0cc; }
   .single-blog.style_two .meta-bottom a {
     color: #fff;
     font-size: 13px;
@@ -1033,7 +1066,7 @@ input[type=submit]:hover {
   text-align: center;
   transition: all 300ms linear 0s;
   position: relative; }
-  .single-blog.style-three .thumb {
+  .single-blog.style-three . {
     overflow: hidden; }
     .single-blog.style-three .thumb img {
       width: 100%;
@@ -2546,7 +2579,7 @@ input[type=submit]:hover {
   .element-wrap {
     margin-top: 30px; } }
 b, sup, sub, u, del {
-  color: #f8b600; }
+  color: #ffa366; }
 
 h1 {
   font-size: 36px; }
@@ -2651,22 +2684,22 @@ h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #f8b600;
+  background: #ffa366;
   border: 1px solid transparent; }
 
 .genric-btn.primary:hover {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: #ffa366;
+  border: 1px solid #ffa366;
   background: #fff; }
 
 .genric-btn.primary-border {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: #ffa366;
+  border: 1px solid #ffa366;
   background: #fff; }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #f8b600;
+  background: #ffa366;
   border: 1px solid transparent; }
 
 .genric-btn.success {
@@ -2780,7 +2813,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #fff;
-  border-left: 2px solid #f8b600; }
+  border-left: 2px solid #ffa366; }
 
 @media (max-width: 991px) {
   .progress-table-wrap {
@@ -2897,7 +2930,7 @@ h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #f8b600;
+  color: #ffa366;
   font-weight: 500;
   line-height: 1.82em !important; }
 
@@ -2908,7 +2941,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #f8b600;
+  color: #ffa366;
   font-weight: 500;
   line-height: 1.82em !important; }
 
@@ -2919,7 +2952,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #f8b600;
+  color: #ffa366;
   font-weight: 500;
   line-height: 1.82em !important; }
 
@@ -3034,7 +3067,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #f8b600;
+  background: #ffa366;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -3112,7 +3145,7 @@ h6 {
   left: 19px; }
 
 .primary-switch input:checked + label:before {
-  background: #f8b600; }
+  background: #ffa366; }
 
 .confirm-switch {
   width: 35px;
@@ -3435,11 +3468,11 @@ h6 {
   padding-left: 20px; }
 
 .default-select .nice-select .list .option.selected {
-  color: #f8b600;
+  color: #ffa366;
   background: transparent; }
 
 .default-select .nice-select .list .option:hover {
-  color: #f8b600;
+  color: #ffa366;
   background: transparent; }
 
 .default-select .current {
@@ -3488,11 +3521,11 @@ h6 {
   padding-left: 45px; }
 
 .form-select .nice-select .list .option.selected {
-  color: #f8b600;
+  color: #ffa366;
   background: transparent; }
 
 .form-select .nice-select .list .option:hover {
-  color: #f8b600;
+  color: #ffa366;
   background: transparent; }
 
 .form-select .current {
@@ -3754,7 +3787,7 @@ h6 {
     border-radius: 0;
     font-size: 14px;
     padding: 10px 22px;
-    border-radius: 25px;
+    border-radius: 5px;
     color: #000;
     margin-right: -25px; }
     .footer-area .single-footer-widget input:focus {
