@@ -145,6 +145,7 @@ button:focus {
     color: #ffffff !important;
     border-color: #ffffff !important;
     border-radius: 3px;
+    transition: 500ms;
 }
 
 .p_120 {
