@@ -617,7 +617,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .container-fluid-upcoming {
@@ -723,7 +723,9 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px
 }
 
 .col {
